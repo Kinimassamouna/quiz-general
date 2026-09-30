@@ -1,0 +1,1 @@
+Le projet consiste à développer une application web permettant à un utilisateur de tester ses connaissances générales à travers une série de différentes questions dans le thème de la célèbre émission les 12 coup de midi.
