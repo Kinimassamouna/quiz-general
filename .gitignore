@@ -1,0 +1,13 @@
+# Fichiers locaux à ne pas partager sur GitHub.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+historique.json
+historique.tmp
+.pytest_cache/
+.DS_Store
+Thumbs.db

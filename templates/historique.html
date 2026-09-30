@@ -1,0 +1,24 @@
+{# Historique : les parties terminées proviennent du fichier historique.json. #}
+{% extends 'base.html' %}
+{% from 'macros.html' import date_fr %}
+{% block titre %}Historique{% endblock %}
+{% block contenu %}
+<div class="entete-page entete-compacte"><span class="surtitre">Les souvenirs du plateau</span><h1>Vos parties, <em>en mémoire.</em></h1><p>Les joueurs, les scores et les petites victoires de chaque partie.</p></div>
+{% if erreur %}<p class="alerte" role="alert">{{ erreur }}</p>{% endif %}
+{% if parties %}
+<div class="historique-parties">
+  {% for partie in parties %}
+  <article class="carte partie-passee">
+    <div class="partie-entete"><span class="surtitre">{{ date_fr(partie.date) }}</span><span class="etiquette">{{ partie.tours }} tour{% if partie.tours > 1 %}s{% endif %}</span></div>
+    <h2><span aria-hidden="true">✦</span> {{ partie.gagnants | join(' & ') }}</h2>
+    <p class="aide">{% if partie.gagnants|length > 1 %}Gagnants ex æquo{% else %}Gagnant de la partie{% endif %}</p>
+    <div class="scores-historique">
+      {% for joueur in partie.joueurs %}<div><span>{{ joueur.nom }}</span><strong>{{ joueur.score }} <small>pt{% if joueur.score != 1 %}s{% endif %}</small></strong></div>{% endfor %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
+{% else %}
+<div class="carte etat-vide"><span class="vide-etoile" aria-hidden="true">✦</span><h2>La première étoile vous attend.</h2><p>Aucune partie terminée pour le moment. Lancez le quiz pour commencer l’histoire.</p><a class="bouton bouton-or" href="{{ url_for('index') }}">Jouer une partie <span aria-hidden="true">→</span></a></div>
+{% endif %}
+{% endblock %}

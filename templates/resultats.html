@@ -1,0 +1,40 @@
+{# Résultats : classement puis correction de toutes les réponses de la partie. #}
+{% extends 'base.html' %}
+{% from 'macros.html' import etoile %}
+{% block titre %}Les résultats{% endblock %}
+{% block contenu %}
+<section class="carte celebration">
+  <div class="confettis" aria-hidden="true">✦ <span>·</span> ✧ <span>✦</span> · ✧</div>
+  <span class="surtitre">Le verdict du plateau</span>
+  <div class="trophee" aria-hidden="true">{{ etoile() }}<span>♛</span></div>
+  <h1>{% if resultat.gagnants|length > 1 %}Une victoire partagée !{% else %}Quelle belle partie !{% endif %}</h1>
+  <p class="noms-gagnants">{{ resultat.gagnants | join(' & ') }}</p>
+  <p class="texte-secondaire">{% if resultat.gagnants|length > 1 %}Les ex æquo sont tous déclarés gagnants.{% else %}Remporte cette partie de culture générale.{% endif %}</p>
+  <a class="bouton bouton-or" href="{{ url_for('index') }}">Rejouer <span aria-hidden="true">↗</span></a>
+</section>
+{% if avertissement %}<p class="alerte" role="status">{{ avertissement }}</p>{% endif %}
+
+<section class="section-resultats" aria-labelledby="titre-classement">
+  <div class="titre-section"><div><span class="surtitre">Les étoiles du jour</span><h2 id="titre-classement">Le classement</h2></div><span class="etiquette">{{ resultat.tours }} tour{% if resultat.tours > 1 %}s{% endif %}</span></div>
+  <div class="classement">
+    {% for joueur in resultat.classement %}
+    <div class="ligne-classement {% if joueur.rang == 1 %}gagnant{% endif %}"><span class="rang">{{ joueur.rang }}</span><strong>{{ joueur.nom }}</strong><span class="score-classement">{{ joueur.score }} <small>point{% if joueur.score != 1 %}s{% endif %}</small></span>{% if joueur.rang == 1 %}<span class="insigne-gagnant" aria-label="Gagnant">✦</span>{% endif %}</div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Le serveur fournit les bonnes réponses une fois la partie terminée. -->
+<section class="section-resultats" aria-labelledby="titre-corrections">
+  <div class="titre-section"><div><span class="surtitre">Pour la prochaine fois</span><h2 id="titre-corrections">Le détail des réponses</h2></div><span class="texte-secondaire">{{ resultat.reponses | length }} questions jouées</span></div>
+  <div class="corrections">
+    {% for reponse in resultat.reponses %}
+    <article class="carte correction {% if reponse.juste %}correction-juste{% else %}correction-fausse{% endif %}">
+      <div class="correction-entete"><span class="surtitre">{{ '%02d' | format(loop.index) }} · {{ reponse.joueur }} <span class="theme-correction">/ {{ reponse.theme }}</span></span><span class="statut-reponse">{% if reponse.juste %}✓ Bonne réponse{% else %}× Réponse incorrecte{% endif %}</span></div>
+      <h3>{{ reponse.question }}</h3>
+      <div class="detail-reponses"><p><span>Réponse donnée</span><strong>{{ reponse.reponse or 'Aucune réponse' }}</strong></p><p><span>Bonne réponse</span><strong class="bonne-reponse">{{ reponse.bonne_reponse }}</strong></p></div>
+      {% if reponse.temps_ecoule %}<p class="aide">Le temps était écoulé.</p>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,57 @@
+{# Plateau : seule la version publique de la partie est transmise au navigateur. #}
+{% extends 'base.html' %}
+{% from 'macros.html' import logo, etoile %}
+{% block titre %}Le plateau{% endblock %}
+{% block classe_page %}page-jeu{% endblock %}
+{% block contenu %}
+<h1 class="visuellement-cache">Partie de culture générale</h1>
+<!-- Le joueur actif et le message du bas sont toujours mis à jour ensemble. -->
+<div class="plateau-haut">
+  <div class="participants">
+    <span class="surtitre">Sur le plateau</span>
+    <div id="joueurs-actifs">
+      {% for joueur in etat.joueurs %}
+      <div class="joueur-actif {% if loop.index0 == etat.joueur_actuel %}actif{% endif %}" data-joueur="{{ loop.index0 }}"><span class="pastille-joueur" aria-hidden="true">{{ loop.index }}</span><span>{{ joueur.nom }}</span></div>
+      {% endfor %}
+    </div>
+  </div>
+  {{ logo() }}
+  <div class="suivi-partie"><span class="surtitre">La partie est lancée</span><p id="progression-tour">Tour {{ etat.tour }} / {{ etat.total_tours }}</p><span id="progression-question" class="aide">Question {{ etat.index_question + 1 }} sur {{ etat.total_questions }}</span></div>
+</div>
+
+<p id="mode-hors-ligne" class="mode-hors-ligne" {% if not etat.hors_ligne %}hidden{% endif %}><span aria-hidden="true">◌</span> Mode hors-ligne : questions de secours</p>
+
+<!-- La question, les réponses aux quatre coins et le chronomètre central. -->
+<section class="plateau" aria-labelledby="question">
+  <div class="bandeau-question"><span class="surtitre">À vous de trouver</span><h2 id="question">{{ etat.question }}</h2></div>
+  <div class="zone-reponses">
+    <div id="reponses">
+      {% for reponse in etat.reponses %}
+      <button class="reponse" data-reponse="{{ loop.index0 }}" type="button" aria-pressed="false"><span class="lettre-reponse" aria-hidden="true">{{ 'ABCD'[loop.index0] }}</span><span class="texte-reponse">{{ reponse }}</span><span class="indicateur-reponse" aria-hidden="true"></span></button>
+      {% endfor %}
+    </div>
+    <div id="chrono" class="chrono" role="timer" aria-label="Temps restant">
+      <svg viewBox="0 0 120 120" aria-hidden="true"><circle class="chrono-piste" cx="60" cy="60" r="50"/><circle class="chrono-progression" cx="60" cy="60" r="50" pathLength="100"/></svg>
+      <div class="chrono-texte"><strong id="temps-restant">{{ etat.secondes_restantes | round(0, 'ceil') | int }}</strong><span>secondes</span></div>
+    </div>
+  </div>
+  <p id="retour-reponse" class="retour-reponse" aria-live="polite" aria-atomic="true"></p>
+  <div class="plateau-bas">
+    <p id="message-joueur" class="message-joueur">À vous de jouer <strong>{{ etat.joueurs[etat.joueur_actuel].nom }} !</strong></p>
+    <div class="theme-question"><span class="surtitre">Thème de la question</span><strong id="theme">{{ etat.theme }}</strong></div>
+    <button id="valider" class="bouton bouton-or" type="button" disabled>Valider <span aria-hidden="true">✓</span></button>
+  </div>
+</section>
+
+<!-- Les noms et les étoiles du bas représentent seulement les joueurs inscrits. -->
+<section id="scores" class="scores" aria-label="Scores des joueurs">
+  {% for joueur in etat.joueurs %}
+  <div class="score-joueur {% if loop.index0 == etat.joueur_actuel %}actif{% endif %}" data-score-joueur="{{ loop.index0 }}">
+    <h2>{{ joueur.nom }}</h2>
+    <div class="etoile-score">{{ etoile() }}<strong class="valeur-score">{{ joueur.score }}</strong></div>
+    <span class="legende-score">point{% if joueur.score != 1 %}s{% endif %}</span>
+  </div>
+  {% endfor %}
+</section>
+<script id="etat-initial" type="application/json">{{ etat | tojson }}</script>
+{% endblock %}

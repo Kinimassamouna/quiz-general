@@ -1,0 +1,2422 @@
+[
+  {
+    "_id": "secours_musique_01",
+    "question": "Quel instrument possède généralement six cordes dans son accordage standard ?",
+    "answer": "La guitare",
+    "badAnswers": [
+      "La trompette",
+      "La flûte traversière",
+      "Le xylophone"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_02",
+    "question": "Quel compositeur a écrit Les Quatre Saisons ?",
+    "answer": "Antonio Vivaldi",
+    "badAnswers": [
+      "Claude Debussy",
+      "Maurice Ravel",
+      "Georges Bizet"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_03",
+    "question": "Quel compositeur a écrit le Boléro ?",
+    "answer": "Maurice Ravel",
+    "badAnswers": [
+      "Antonio Vivaldi",
+      "Frédéric Chopin",
+      "Giuseppe Verdi"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_04",
+    "question": "Quel compositeur a écrit l'opéra Carmen ?",
+    "answer": "Georges Bizet",
+    "badAnswers": [
+      "Wolfgang Amadeus Mozart",
+      "Johann Sebastian Bach",
+      "Richard Wagner"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_05",
+    "question": "Quel compositeur a écrit La Flûte enchantée ?",
+    "answer": "Wolfgang Amadeus Mozart",
+    "badAnswers": [
+      "Ludwig van Beethoven",
+      "Franz Schubert",
+      "Claude Debussy"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_06",
+    "question": "Combien de lignes compte une portée musicale classique ?",
+    "answer": "Cinq",
+    "badAnswers": [
+      "Trois",
+      "Quatre",
+      "Six"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_07",
+    "question": "Combien de cordes possède un violon classique ?",
+    "answer": "Quatre",
+    "badAnswers": [
+      "Deux",
+      "Six",
+      "Huit"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_08",
+    "question": "Quel instrument se joue avec deux baguettes sur une peau tendue ?",
+    "answer": "La caisse claire",
+    "badAnswers": [
+      "La harpe",
+      "Le hautbois",
+      "L'accordéon"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_09",
+    "question": "Quelle famille comprend la trompette et le trombone ?",
+    "answer": "Les cuivres",
+    "badAnswers": [
+      "Les cordes frottées",
+      "Les claviers",
+      "Les cordes pincées"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_10",
+    "question": "Comment appelle-t-on une personne qui dirige un orchestre ?",
+    "answer": "Un chef d'orchestre",
+    "badAnswers": [
+      "Un chorégraphe",
+      "Un souffleur de théâtre",
+      "Un régisseur lumière"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_11",
+    "question": "Quel terme musical indique généralement un tempo rapide et animé ?",
+    "answer": "Allegro",
+    "badAnswers": [
+      "Largo",
+      "Adagio",
+      "Lento"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_12",
+    "question": "Comment appelle-t-on un groupe de quatre musiciens ?",
+    "answer": "Un quatuor",
+    "badAnswers": [
+      "Un duo",
+      "Un trio",
+      "Un quintette"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_13",
+    "question": "Comment appelle-t-on le chant sans accompagnement instrumental ?",
+    "answer": "A cappella",
+    "badAnswers": [
+      "Pizzicato",
+      "Crescendo",
+      "Staccato"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_14",
+    "question": "Dans quelle ville anglaise le groupe The Beatles s'est-il formé ?",
+    "answer": "Liverpool",
+    "badAnswers": [
+      "Oxford",
+      "Bristol",
+      "Cambridge"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_15",
+    "question": "Quel chanteur est connu sous le surnom de King of Pop ?",
+    "answer": "Michael Jackson",
+    "badAnswers": [
+      "Freddie Mercury",
+      "Elvis Presley",
+      "David Bowie"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_16",
+    "question": "Quel instrument associe un clavier et un soufflet ?",
+    "answer": "L'accordéon",
+    "badAnswers": [
+      "Le saxophone",
+      "Le violoncelle",
+      "Le cor"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_17",
+    "question": "Comment nomme-t-on une augmentation progressive du volume sonore ?",
+    "answer": "Un crescendo",
+    "badAnswers": [
+      "Un silence",
+      "Un tempo",
+      "Un unisson"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_18",
+    "question": "Quel compositeur a écrit la célèbre pièce pour piano Clair de lune de la Suite bergamasque ?",
+    "answer": "Claude Debussy",
+    "badAnswers": [
+      "Georges Bizet",
+      "Antonio Vivaldi",
+      "Hector Berlioz"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_19",
+    "question": "Quel instrument à cordes se joue habituellement debout et est plus grand que le violoncelle ?",
+    "answer": "La contrebasse",
+    "badAnswers": [
+      "L'alto",
+      "Le violon",
+      "Le ukulélé"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_musique_20",
+    "question": "Quelle note vient immédiatement après do dans la suite do, ré, mi, fa, sol, la, si ?",
+    "answer": "Ré",
+    "badAnswers": [
+      "Fa",
+      "La",
+      "Si"
+    ],
+    "category": "musique"
+  },
+  {
+    "_id": "secours_culture_generale_01",
+    "question": "Combien d'objets contient une douzaine ?",
+    "answer": "Douze",
+    "badAnswers": [
+      "Dix",
+      "Vingt",
+      "Cent"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_02",
+    "question": "Combien d'années composent un siècle ?",
+    "answer": "Cent",
+    "badAnswers": [
+      "Dix",
+      "Mille",
+      "Cinquante"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_03",
+    "question": "Combien de jours compte une semaine ?",
+    "answer": "Sept",
+    "badAnswers": [
+      "Cinq",
+      "Six",
+      "Huit"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_04",
+    "question": "Combien de mois compte une année civile ?",
+    "answer": "Douze",
+    "badAnswers": [
+      "Dix",
+      "Onze",
+      "Treize"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_05",
+    "question": "Combien de lettres compte l'alphabet français usuel ?",
+    "answer": "Vingt-six",
+    "badAnswers": [
+      "Vingt",
+      "Vingt-quatre",
+      "Trente"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_06",
+    "question": "Combien de cases compte un échiquier ?",
+    "answer": "Soixante-quatre",
+    "badAnswers": [
+      "Trente-deux",
+      "Cinquante",
+      "Cent"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_07",
+    "question": "Quelle pièce d'échecs doit être mise en échec et mat pour gagner une partie ?",
+    "answer": "Le roi",
+    "badAnswers": [
+      "La reine",
+      "Le fou",
+      "La tour"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_08",
+    "question": "Combien de faces possède un dé cubique classique ?",
+    "answer": "Six",
+    "badAnswers": [
+      "Quatre",
+      "Huit",
+      "Douze"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_09",
+    "question": "Quel outil utilise-t-on pour tracer un cercle ?",
+    "answer": "Un compas",
+    "badAnswers": [
+      "Un rapporteur",
+      "Une équerre",
+      "Un niveau à bulle"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_10",
+    "question": "Quel instrument sert à mesurer la température ?",
+    "answer": "Un thermomètre",
+    "badAnswers": [
+      "Un chronomètre",
+      "Un baromètre",
+      "Un odomètre"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_11",
+    "question": "Quel objet indique traditionnellement le nord grâce à une aiguille aimantée ?",
+    "answer": "Une boussole",
+    "badAnswers": [
+      "Un sablier",
+      "Un microscope",
+      "Un métronome"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_12",
+    "question": "Quelle couleur du feu tricolore indique généralement l'obligation de s'arrêter ?",
+    "answer": "Le rouge",
+    "badAnswers": [
+      "Le vert",
+      "Le bleu",
+      "Le violet"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_13",
+    "question": "Comment appelle-t-on une personne qui écrit un dictionnaire ?",
+    "answer": "Un lexicographe",
+    "badAnswers": [
+      "Un cartographe",
+      "Un chorégraphe",
+      "Un photographe"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_14",
+    "question": "Quel système d'écriture en relief permet notamment la lecture avec les doigts ?",
+    "answer": "Le braille",
+    "badAnswers": [
+      "Le morse",
+      "La sténographie",
+      "La calligraphie"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_15",
+    "question": "Quel mot désigne les trois premiers rangs d'une compétition représentés par une plateforme ?",
+    "answer": "Le podium",
+    "badAnswers": [
+      "Le vestiaire",
+      "Le guichet",
+      "Le pupitre"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_16",
+    "question": "Combien de côtés possède un triangle ?",
+    "answer": "Trois",
+    "badAnswers": [
+      "Quatre",
+      "Cinq",
+      "Six"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_17",
+    "question": "Quelle unité correspond à soixante minutes ?",
+    "answer": "Une heure",
+    "badAnswers": [
+      "Une seconde",
+      "Un jour",
+      "Une semaine"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_18",
+    "question": "Quel objet permet d'observer des objets très petits grâce à des lentilles ?",
+    "answer": "Un microscope",
+    "badAnswers": [
+      "Un périscope",
+      "Un télescope",
+      "Un kaleïdoscope"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_19",
+    "question": "Dans quel lieu emprunte-t-on habituellement des livres pour les lire chez soi ?",
+    "answer": "Une bibliothèque",
+    "badAnswers": [
+      "Une pharmacie",
+      "Une gare",
+      "Un stade"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_culture_generale_20",
+    "question": "Comment appelle-t-on un mot qui a un sens opposé à un autre mot ?",
+    "answer": "Un antonyme",
+    "badAnswers": [
+      "Un synonyme",
+      "Un homophone",
+      "Un acronyme"
+    ],
+    "category": "culture_generale"
+  },
+  {
+    "_id": "secours_art_litterature_01",
+    "question": "Qui a peint La Joconde ?",
+    "answer": "Léonard de Vinci",
+    "badAnswers": [
+      "Pablo Picasso",
+      "Claude Monet",
+      "Vincent van Gogh"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_02",
+    "question": "Qui a écrit Les Misérables ?",
+    "answer": "Victor Hugo",
+    "badAnswers": [
+      "Émile Zola",
+      "Molière",
+      "Jules Verne"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_03",
+    "question": "Qui a écrit Le Petit Prince ?",
+    "answer": "Antoine de Saint-Exupéry",
+    "badAnswers": [
+      "Albert Camus",
+      "Marcel Proust",
+      "Jean de La Fontaine"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_04",
+    "question": "Qui a écrit la pièce Le Malade imaginaire ?",
+    "answer": "Molière",
+    "badAnswers": [
+      "Victor Hugo",
+      "Edmond Rostand",
+      "Pierre Corneille"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_05",
+    "question": "Qui a peint Guernica ?",
+    "answer": "Pablo Picasso",
+    "badAnswers": [
+      "Auguste Renoir",
+      "Paul Cézanne",
+      "Henri Matisse"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_06",
+    "question": "Qui a peint La Nuit étoilée, conservée au MoMA à New York ?",
+    "answer": "Vincent van Gogh",
+    "badAnswers": [
+      "Édouard Manet",
+      "Salvador Dalí",
+      "Gustave Courbet"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_07",
+    "question": "Qui a écrit Vingt mille lieues sous les mers ?",
+    "answer": "Jules Verne",
+    "badAnswers": [
+      "Alexandre Dumas",
+      "Honoré de Balzac",
+      "Gustave Flaubert"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_08",
+    "question": "Qui est l'auteur des Fables comprenant Le Corbeau et le Renard ?",
+    "answer": "Jean de La Fontaine",
+    "badAnswers": [
+      "Charles Baudelaire",
+      "Arthur Rimbaud",
+      "Paul Verlaine"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_09",
+    "question": "Qui a écrit Roméo et Juliette ?",
+    "answer": "William Shakespeare",
+    "badAnswers": [
+      "Charles Dickens",
+      "Jane Austen",
+      "Oscar Wilde"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_10",
+    "question": "Quel personnage est un détective créé par Arthur Conan Doyle ?",
+    "answer": "Sherlock Holmes",
+    "badAnswers": [
+      "Hercule Poirot",
+      "Arsène Lupin",
+      "Harry Potter"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_11",
+    "question": "Qui a créé le personnage d'Arsène Lupin ?",
+    "answer": "Maurice Leblanc",
+    "badAnswers": [
+      "Georges Simenon",
+      "Arthur Conan Doyle",
+      "Agatha Christie"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_12",
+    "question": "Qui a écrit Don Quichotte ?",
+    "answer": "Miguel de Cervantes",
+    "badAnswers": [
+      "Federico García Lorca",
+      "Gabriel García Márquez",
+      "Pablo Neruda"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_13",
+    "question": "Qui a sculpté Le Penseur ?",
+    "answer": "Auguste Rodin",
+    "badAnswers": [
+      "Auguste Bartholdi",
+      "Constantin Brancusi",
+      "Alberto Giacometti"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_14",
+    "question": "Quel peintre est célèbre pour sa série des Nymphéas ?",
+    "answer": "Claude Monet",
+    "badAnswers": [
+      "Paul Gauguin",
+      "René Magritte",
+      "Francisco de Goya"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_15",
+    "question": "Qui a écrit L'Étranger, publié en 1942 ?",
+    "answer": "Albert Camus",
+    "badAnswers": [
+      "Jean-Paul Sartre",
+      "André Malraux",
+      "Boris Vian"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_16",
+    "question": "Qui a écrit le roman Madame Bovary ?",
+    "answer": "Gustave Flaubert",
+    "badAnswers": [
+      "Stendhal",
+      "Émile Zola",
+      "Honoré de Balzac"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_17",
+    "question": "Quel roman de George Orwell met en scène le personnage de Big Brother ?",
+    "answer": "1984",
+    "badAnswers": [
+      "Le Meilleur des mondes",
+      "Fahrenheit 451",
+      "L'Île au trésor"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_18",
+    "question": "Qui a écrit Les Trois Mousquetaires ?",
+    "answer": "Alexandre Dumas",
+    "badAnswers": [
+      "Jules Verne",
+      "Victor Hugo",
+      "Guy de Maupassant"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_19",
+    "question": "Quel mouvement artistique est associé à Salvador Dalí ?",
+    "answer": "Le surréalisme",
+    "badAnswers": [
+      "Le réalisme",
+      "Le romantisme",
+      "Le pointillisme"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_art_litterature_20",
+    "question": "Comment appelle-t-on un poème composé de quatorze vers, dans sa forme classique ?",
+    "answer": "Un sonnet",
+    "badAnswers": [
+      "Un haïku",
+      "Une fable",
+      "Une épopée"
+    ],
+    "category": "art_litterature"
+  },
+  {
+    "_id": "secours_tv_cinema_01",
+    "question": "Qui a réalisé le film Titanic sorti en 1997 ?",
+    "answer": "James Cameron",
+    "badAnswers": [
+      "Steven Spielberg",
+      "George Lucas",
+      "Peter Jackson"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_02",
+    "question": "Quel acteur joue Jack Sparrow dans Pirates des Caraïbes ?",
+    "answer": "Johnny Depp",
+    "badAnswers": [
+      "Tom Hanks",
+      "Harrison Ford",
+      "Brad Pitt"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_03",
+    "question": "Quel studio a produit Toy Story, sorti en 1995 ?",
+    "answer": "Pixar",
+    "badAnswers": [
+      "DreamWorks Animation",
+      "Studio Ghibli",
+      "Aardman"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_04",
+    "question": "Quel réalisateur a créé l'univers cinématographique de Star Wars ?",
+    "answer": "George Lucas",
+    "badAnswers": [
+      "Stanley Kubrick",
+      "Martin Scorsese",
+      "Tim Burton"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_05",
+    "question": "Dans Le Roi Lion, comment s'appelle le jeune lion héros du film ?",
+    "answer": "Simba",
+    "badAnswers": [
+      "Baloo",
+      "Dumbo",
+      "Bambi"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_06",
+    "question": "Quel film de Steven Spielberg raconte l'amitié entre Elliott et un extraterrestre ?",
+    "answer": "E.T., l'extra-terrestre",
+    "badAnswers": [
+      "Jurassic Park",
+      "Les Dents de la mer",
+      "Indiana Jones et le Temple maudit"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_07",
+    "question": "Quel acteur incarne Forrest Gump dans le film de 1994 ?",
+    "answer": "Tom Hanks",
+    "badAnswers": [
+      "Tom Cruise",
+      "Matt Damon",
+      "Leonardo DiCaprio"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_08",
+    "question": "Dans quelle saga trouve-t-on le personnage d'Hermione Granger ?",
+    "answer": "Harry Potter",
+    "badAnswers": [
+      "Star Wars",
+      "Indiana Jones",
+      "Retour vers le futur"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_09",
+    "question": "Quel réalisateur a signé la trilogie du Seigneur des anneaux sortie de 2001 à 2003 ?",
+    "answer": "Peter Jackson",
+    "badAnswers": [
+      "Christopher Nolan",
+      "Ridley Scott",
+      "James Cameron"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_10",
+    "question": "Quel personnage de cinéma porte un fouet et un chapeau et exerce le métier d'archéologue ?",
+    "answer": "Indiana Jones",
+    "badAnswers": [
+      "James Bond",
+      "Rocky Balboa",
+      "Marty McFly"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_11",
+    "question": "Quel film d'animation met en scène le robot WALL-E ?",
+    "answer": "WALL-E",
+    "badAnswers": [
+      "Cars",
+      "Ratatouille",
+      "Monstres et Cie"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_12",
+    "question": "Dans Ratatouille, quel animal est Rémy ?",
+    "answer": "Un rat",
+    "badAnswers": [
+      "Un lapin",
+      "Un chat",
+      "Un renard"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_13",
+    "question": "Quel film d'animation met en scène les sœurs Elsa et Anna ?",
+    "answer": "La Reine des neiges",
+    "badAnswers": [
+      "Vaiana",
+      "Raiponce",
+      "Rebelle"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_14",
+    "question": "Quel acteur est célèbre pour son personnage de Charlot ?",
+    "answer": "Charlie Chaplin",
+    "badAnswers": [
+      "Buster Keaton",
+      "Laurel",
+      "Groucho Marx"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_15",
+    "question": "Quelle récompense principale est remise au Festival de Cannes ?",
+    "answer": "La Palme d'or",
+    "badAnswers": [
+      "L'Ours d'or",
+      "Le Lion d'or",
+      "Le César du public"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_16",
+    "question": "Comment s'appelle le poisson-clown recherché par son père dans un film Pixar de 2003 ?",
+    "answer": "Nemo",
+    "badAnswers": [
+      "Dory",
+      "Marin",
+      "Bruce"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_17",
+    "question": "Dans Retour vers le futur, quelle voiture sert de machine à voyager dans le temps ?",
+    "answer": "Une DeLorean",
+    "badAnswers": [
+      "Une Ferrari Testarossa",
+      "Une Volkswagen Coccinelle",
+      "Une Citroën 2 CV"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_18",
+    "question": "Quel réalisateur japonais a réalisé Le Voyage de Chihiro ?",
+    "answer": "Hayao Miyazaki",
+    "badAnswers": [
+      "Akira Kurosawa",
+      "Yasujirō Ozu",
+      "Hirokazu Kore-eda"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_19",
+    "question": "Quelle famille jaune habite dans la ville fictive de Springfield ?",
+    "answer": "Les Simpson",
+    "badAnswers": [
+      "Les Pierrafeu",
+      "Les Jetson",
+      "Les Dalton"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_tv_cinema_20",
+    "question": "Dans la saga Shrek, quelle créature est le personnage principal ?",
+    "answer": "Un ogre",
+    "badAnswers": [
+      "Un elfe",
+      "Un dragon",
+      "Un vampire"
+    ],
+    "category": "tv_cinema"
+  },
+  {
+    "_id": "secours_actu_politique_01",
+    "question": "Que signifie le sigle ONU ?",
+    "answer": "Organisation des Nations unies",
+    "badAnswers": [
+      "Office national universitaire",
+      "Organisation numérique universelle",
+      "Observatoire des nations urbaines"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_02",
+    "question": "En quelle année l'Organisation des Nations unies a-t-elle été fondée ?",
+    "answer": "1945",
+    "badAnswers": [
+      "1914",
+      "1789",
+      "1968"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_03",
+    "question": "Dans quelle ville se trouve le siège principal de l'ONU ?",
+    "answer": "New York",
+    "badAnswers": [
+      "Londres",
+      "Rome",
+      "Madrid"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_04",
+    "question": "Quel personnage féminin symbolise la République française ?",
+    "answer": "Marianne",
+    "badAnswers": [
+      "Ariane",
+      "Hélène",
+      "Pénélope"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_05",
+    "question": "Quel est le titre de l'hymne national français ?",
+    "answer": "La Marseillaise",
+    "badAnswers": [
+      "Le Chant des partisans",
+      "La Vie en rose",
+      "Le Temps des cerises"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_06",
+    "question": "Quelle devise figure sur les bâtiments publics français ?",
+    "answer": "Liberté, Égalité, Fraternité",
+    "badAnswers": [
+      "Paix, Travail, Famille",
+      "Force, Honneur, Patrie",
+      "Unité, Courage, Progrès"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_07",
+    "question": "Comment appelle-t-on le vote direct des citoyens sur une question qui leur est soumise ?",
+    "answer": "Un référendum",
+    "badAnswers": [
+      "Un recensement",
+      "Une nomination",
+      "Un remaniement"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_08",
+    "question": "Quel objet reçoit les bulletins de vote dans un bureau de vote ?",
+    "answer": "L'urne",
+    "badAnswers": [
+      "La tribune",
+      "Le pupitre",
+      "La corbeille"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_09",
+    "question": "Comment appelle-t-on la cabine qui permet de préparer son vote à l'abri des regards ?",
+    "answer": "L'isoloir",
+    "badAnswers": [
+      "Le parloir",
+      "Le vestibule",
+      "L'observatoire"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_10",
+    "question": "Comment appelle-t-on le fait de ne pas participer à un vote ?",
+    "answer": "L'abstention",
+    "badAnswers": [
+      "La coalition",
+      "La promulgation",
+      "La pétition"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_11",
+    "question": "Quel document expose les règles fondamentales d'organisation d'un État ?",
+    "answer": "La Constitution",
+    "badAnswers": [
+      "Un atlas",
+      "Un dictionnaire",
+      "Un annuaire"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_12",
+    "question": "Quel philosophe a développé la séparation des pouvoirs dans De l'esprit des lois ?",
+    "answer": "Montesquieu",
+    "badAnswers": [
+      "René Descartes",
+      "Denis Diderot",
+      "Blaise Pascal"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_13",
+    "question": "Quelle cité grecque antique est célèbre pour l'émergence de la démocratie ?",
+    "answer": "Athènes",
+    "badAnswers": [
+      "Sparte",
+      "Troie",
+      "Mycènes"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_14",
+    "question": "Quel palais parisien abrite la présidence de la République française ?",
+    "answer": "Le palais de l'Élysée",
+    "badAnswers": [
+      "Le palais Garnier",
+      "Le palais du Louvre",
+      "Le Grand Palais"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_15",
+    "question": "Quel palais abrite l'Assemblée nationale française ?",
+    "answer": "Le palais Bourbon",
+    "badAnswers": [
+      "Le palais du Luxembourg",
+      "Le palais des Papes",
+      "Le palais de Versailles"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_16",
+    "question": "Quel palais parisien abrite le Sénat français ?",
+    "answer": "Le palais du Luxembourg",
+    "badAnswers": [
+      "Le palais Bourbon",
+      "Le palais Garnier",
+      "Le palais de Chaillot"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_17",
+    "question": "Combien d'étoiles comporte le drapeau européen ?",
+    "answer": "Douze",
+    "badAnswers": [
+      "Six",
+      "Vingt",
+      "Vingt-sept"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_18",
+    "question": "Quelle branche du pouvoir est chargée de juger les litiges et les infractions ?",
+    "answer": "Le pouvoir judiciaire",
+    "badAnswers": [
+      "Le pouvoir législatif",
+      "Le pouvoir exécutif",
+      "Le pouvoir monétaire"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_19",
+    "question": "Comment appelle-t-on une personne élue à la tête d'une commune française ?",
+    "answer": "Le maire",
+    "badAnswers": [
+      "Le préfet",
+      "Le sénateur",
+      "L'ambassadeur"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_actu_politique_20",
+    "question": "Quel terme désigne une demande collective signée pour défendre une cause ?",
+    "answer": "Une pétition",
+    "badAnswers": [
+      "Une coalition",
+      "Une investiture",
+      "Une dissolution"
+    ],
+    "category": "actu_politique"
+  },
+  {
+    "_id": "secours_sport_01",
+    "question": "Combien de joueurs une équipe de football aligne-t-elle au coup d'envoi d'un match standard ?",
+    "answer": "Onze",
+    "badAnswers": [
+      "Sept",
+      "Neuf",
+      "Treize"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_02",
+    "question": "Dans quel sport utilise-t-on un volant ?",
+    "answer": "Le badminton",
+    "badAnswers": [
+      "Le tennis",
+      "Le squash",
+      "Le padel"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_03",
+    "question": "Sur quelle surface se déroule le tournoi de tennis de Roland-Garros ?",
+    "answer": "La terre battue",
+    "badAnswers": [
+      "Le gazon",
+      "La glace",
+      "Le sable"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_04",
+    "question": "Combien d'anneaux composent le symbole olympique ?",
+    "answer": "Cinq",
+    "badAnswers": [
+      "Quatre",
+      "Six",
+      "Sept"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_05",
+    "question": "Quel sport oppose deux judokas sur un tatami ?",
+    "answer": "Le judo",
+    "badAnswers": [
+      "L'escrime",
+      "L'aviron",
+      "Le baseball"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_06",
+    "question": "Dans quel sport utilise-t-on une rondelle appelée palet sur une patinoire ?",
+    "answer": "Le hockey sur glace",
+    "badAnswers": [
+      "Le curling",
+      "Le patinage artistique",
+      "Le ski de fond"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_07",
+    "question": "Quel sport est associé au Tour de France ?",
+    "answer": "Le cyclisme",
+    "badAnswers": [
+      "La course à pied",
+      "La natation",
+      "Le motocyclisme"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_08",
+    "question": "Quelle couleur porte le leader du classement général du Tour de France ?",
+    "answer": "Le jaune",
+    "badAnswers": [
+      "Le violet",
+      "Le noir",
+      "L'orange"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_09",
+    "question": "Combien de joueurs d'une même équipe sont sur le terrain en basket-ball traditionnel ?",
+    "answer": "Cinq",
+    "badAnswers": [
+      "Six",
+      "Sept",
+      "Onze"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_10",
+    "question": "Quel sport se pratique sur un ring avec des gants et des coups de poing ?",
+    "answer": "La boxe",
+    "badAnswers": [
+      "L'escrime",
+      "Le judo",
+      "Le taekwondo"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_11",
+    "question": "Dans quel sport les termes birdie et bogey sont-ils utilisés ?",
+    "answer": "Le golf",
+    "badAnswers": [
+      "Le rugby",
+      "Le handball",
+      "La gymnastique"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_12",
+    "question": "Quelle épreuve d'athlétisme consiste à franchir une barre avec une longue tige souple ?",
+    "answer": "Le saut à la perche",
+    "badAnswers": [
+      "Le triple saut",
+      "Le lancer du javelot",
+      "Le saut en longueur"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_13",
+    "question": "Quelle est la distance officielle d'un marathon ?",
+    "answer": "42,195 kilomètres",
+    "badAnswers": [
+      "40 kilomètres",
+      "21,1 kilomètres",
+      "50 kilomètres"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_14",
+    "question": "Quel sport se pratique avec une épée, un fleuret ou un sabre ?",
+    "answer": "L'escrime",
+    "badAnswers": [
+      "Le tir à l'arc",
+      "Le hockey",
+      "Le polo"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_15",
+    "question": "Quel sport aquatique utilise une planche pour glisser sur les vagues ?",
+    "answer": "Le surf",
+    "badAnswers": [
+      "La plongée",
+      "L'aviron",
+      "Le water-polo"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_16",
+    "question": "Dans quelle discipline sportive effectue-t-on des figures aux barres asymétriques ?",
+    "answer": "La gymnastique artistique",
+    "badAnswers": [
+      "Le trampoline",
+      "La natation artistique",
+      "Le patinage de vitesse"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_17",
+    "question": "Combien de quilles faut-il renverser au bowling classique à dix quilles ?",
+    "answer": "Dix",
+    "badAnswers": [
+      "Six",
+      "Huit",
+      "Douze"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_18",
+    "question": "Quelle compétition sportive internationale est associée à la flamme olympique ?",
+    "answer": "Les Jeux olympiques",
+    "badAnswers": [
+      "Le Tour de France",
+      "La Coupe Davis",
+      "Le Super Bowl"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_19",
+    "question": "Quelle nage reproduit un mouvement de jambes appelé battement de dauphin ?",
+    "answer": "Le papillon",
+    "badAnswers": [
+      "La brasse",
+      "Le crawl",
+      "Le dos crawlé"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_sport_20",
+    "question": "Quel sport collectif se joue avec un ballon ovale et comprend des mêlées ?",
+    "answer": "Le rugby",
+    "badAnswers": [
+      "Le volley-ball",
+      "Le basket-ball",
+      "Le football"
+    ],
+    "category": "sport"
+  },
+  {
+    "_id": "secours_jeux_videos_01",
+    "question": "Quel héros de Nintendo porte habituellement une casquette rouge avec la lettre M ?",
+    "answer": "Mario",
+    "badAnswers": [
+      "Link",
+      "Kirby",
+      "Fox McCloud"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_02",
+    "question": "Quel personnage bleu de Sega court très vite ?",
+    "answer": "Sonic",
+    "badAnswers": [
+      "Pikachu",
+      "Yoshi",
+      "Crash Bandicoot"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_03",
+    "question": "Quel jeu consiste à empiler des pièces géométriques qui tombent pour compléter des lignes ?",
+    "answer": "Tetris",
+    "badAnswers": [
+      "Pac-Man",
+      "Pong",
+      "Space Invaders"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_04",
+    "question": "Quel personnage jaune mange des pac-gommes dans un labyrinthe ?",
+    "answer": "Pac-Man",
+    "badAnswers": [
+      "Sonic",
+      "Kirby",
+      "Donkey Kong"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_05",
+    "question": "Quel jeu de construction propose un monde composé de blocs et des créatures appelées Creepers ?",
+    "answer": "Minecraft",
+    "badAnswers": [
+      "Stardew Valley",
+      "Terraria",
+      "Roblox"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_06",
+    "question": "Quelle société a créé la console PlayStation ?",
+    "answer": "Sony",
+    "badAnswers": [
+      "Nintendo",
+      "Sega",
+      "Atari"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_07",
+    "question": "Quelle société a créé la console Xbox ?",
+    "answer": "Microsoft",
+    "badAnswers": [
+      "Sony",
+      "Nintendo",
+      "Sega"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_08",
+    "question": "Quel est le nom du héros habituellement jouable dans The Legend of Zelda ?",
+    "answer": "Link",
+    "badAnswers": [
+      "Zelda",
+      "Ganondorf",
+      "Tingle"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_09",
+    "question": "Quel Pokémon jaune est la mascotte la plus connue de la série Pokémon ?",
+    "answer": "Pikachu",
+    "badAnswers": [
+      "Salamèche",
+      "Carapuce",
+      "Bulbizarre"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_10",
+    "question": "Quel jeu de Nintendo met en scène des courses de karts avec Mario et ses amis ?",
+    "answer": "Mario Kart",
+    "badAnswers": [
+      "Super Smash Bros.",
+      "Mario Party",
+      "Super Mario Maker"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_11",
+    "question": "Quelle héroïne explore des tombeaux dans la série Tomb Raider ?",
+    "answer": "Lara Croft",
+    "badAnswers": [
+      "Samus Aran",
+      "Aloy",
+      "Princess Peach"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_12",
+    "question": "Quel personnage est un gorille célèbre de Nintendo ?",
+    "answer": "Donkey Kong",
+    "badAnswers": [
+      "Crash Bandicoot",
+      "Spyro",
+      "Ratchet"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_13",
+    "question": "Dans Pokémon, quel objet sert habituellement à capturer les créatures ?",
+    "answer": "Une Poké Ball",
+    "badAnswers": [
+      "Un anneau",
+      "Une étoile",
+      "Une émeraude"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_14",
+    "question": "Dans quelle série de jeux se trouve la princesse Peach ?",
+    "answer": "Super Mario",
+    "badAnswers": [
+      "Sonic the Hedgehog",
+      "Halo",
+      "God of War"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_15",
+    "question": "Quel jeu permet de gérer une ferme héritée de son grand-père dans le village de Pelican Town ?",
+    "answer": "Stardew Valley",
+    "badAnswers": [
+      "Portal",
+      "Celeste",
+      "Hollow Knight"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_16",
+    "question": "Quelle série de jeux permet de gérer la vie quotidienne de personnages appelés Sims ?",
+    "answer": "Les Sims",
+    "badAnswers": [
+      "Civilization",
+      "SimCity",
+      "Age of Empires"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_17",
+    "question": "Quel jeu de football avec des voitures se joue en envoyant un grand ballon dans un but ?",
+    "answer": "Rocket League",
+    "badAnswers": [
+      "Forza Horizon",
+      "Gran Turismo",
+      "Trackmania"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_18",
+    "question": "Quel jeu coopératif demande de préparer et servir des plats dans des cuisines chaotiques ?",
+    "answer": "Overcooked!",
+    "badAnswers": [
+      "Portal",
+      "Subnautica",
+      "Limbo"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_19",
+    "question": "Quel jeu de Valve utilise un dispositif créant deux portails reliés ?",
+    "answer": "Portal",
+    "badAnswers": [
+      "Half-Life",
+      "Counter-Strike",
+      "Left 4 Dead"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_jeux_videos_20",
+    "question": "Quel personnage rose de Nintendo peut aspirer ses ennemis ?",
+    "answer": "Kirby",
+    "badAnswers": [
+      "Yoshi",
+      "Wario",
+      "Luigi"
+    ],
+    "category": "jeux_videos"
+  },
+  {
+    "_id": "secours_histoire_01",
+    "question": "En quelle année a eu lieu la prise de la Bastille ?",
+    "answer": "1789",
+    "badAnswers": [
+      "1492",
+      "1815",
+      "1914"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_02",
+    "question": "Quel navigateur a atteint les Caraïbes en 1492 au service des souverains espagnols ?",
+    "answer": "Christophe Colomb",
+    "badAnswers": [
+      "Vasco de Gama",
+      "James Cook",
+      "Jacques Cartier"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_03",
+    "question": "Quel roi de France était surnommé le Roi-Soleil ?",
+    "answer": "Louis XIV",
+    "badAnswers": [
+      "Louis XVI",
+      "Henri IV",
+      "François Ier"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_04",
+    "question": "Qui a été couronné empereur des Français en 1804 ?",
+    "answer": "Napoléon Bonaparte",
+    "badAnswers": [
+      "Charlemagne",
+      "Louis-Philippe",
+      "Charles de Gaulle"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_05",
+    "question": "En quelle année la Première Guerre mondiale a-t-elle commencé ?",
+    "answer": "1914",
+    "badAnswers": [
+      "1905",
+      "1918",
+      "1939"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_06",
+    "question": "En quelle année la Seconde Guerre mondiale s'est-elle terminée ?",
+    "answer": "1945",
+    "badAnswers": [
+      "1918",
+      "1939",
+      "1954"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_07",
+    "question": "En quelle année le mur de Berlin est-il tombé ?",
+    "answer": "1989",
+    "badAnswers": [
+      "1961",
+      "1975",
+      "1999"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_08",
+    "question": "Quelle civilisation antique a construit les pyramides de Gizeh ?",
+    "answer": "La civilisation égyptienne",
+    "badAnswers": [
+      "La civilisation inca",
+      "La civilisation romaine",
+      "La civilisation viking"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_09",
+    "question": "Qui a été sacré empereur à Rome en l'an 800 ?",
+    "answer": "Charlemagne",
+    "badAnswers": [
+      "Clovis",
+      "Jules César",
+      "Hugues Capet"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_10",
+    "question": "Quelle héroïne française a participé à la levée du siège d'Orléans en 1429 ?",
+    "answer": "Jeanne d'Arc",
+    "badAnswers": [
+      "Aliénor d'Aquitaine",
+      "Catherine de Médicis",
+      "Olympe de Gouges"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_11",
+    "question": "Quel dirigeant a lancé l'appel du 18 juin 1940 depuis Londres ?",
+    "answer": "Charles de Gaulle",
+    "badAnswers": [
+      "Georges Clemenceau",
+      "Jean Jaurès",
+      "Robert Schuman"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_12",
+    "question": "Quelle bataille de 1815 a marqué la défaite finale de Napoléon Ier ?",
+    "answer": "Waterloo",
+    "badAnswers": [
+      "Austerlitz",
+      "Marignan",
+      "Verdun"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_13",
+    "question": "Quel souverain français a remporté la bataille de Marignan en 1515 ?",
+    "answer": "François Ier",
+    "badAnswers": [
+      "Louis IX",
+      "Henri IV",
+      "Louis XV"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_14",
+    "question": "Quel peuple de l'Antiquité organisait les premiers Jeux olympiques à Olympie ?",
+    "answer": "Les Grecs",
+    "badAnswers": [
+      "Les Égyptiens",
+      "Les Gaulois",
+      "Les Perses"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_15",
+    "question": "Quel homme a posé le premier le pied sur la Lune en 1969 ?",
+    "answer": "Neil Armstrong",
+    "badAnswers": [
+      "Youri Gagarine",
+      "Buzz Aldrin",
+      "Alan Shepard"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_16",
+    "question": "Quel pays a adopté sa Déclaration d'indépendance le 4 juillet 1776 ?",
+    "answer": "Les États-Unis",
+    "badAnswers": [
+      "Le Canada",
+      "Le Mexique",
+      "Le Brésil"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_17",
+    "question": "Quelle ville antique a été ensevelie par l'éruption du Vésuve en 79 ?",
+    "answer": "Pompéi",
+    "badAnswers": [
+      "Athènes",
+      "Carthage",
+      "Alexandrie"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_18",
+    "question": "Quel roi franc est traditionnellement associé à la bataille de Tolbiac et à un baptême à Reims ?",
+    "answer": "Clovis",
+    "badAnswers": [
+      "Dagobert Ier",
+      "Pépin le Bref",
+      "Hugues Capet"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_19",
+    "question": "Qui a rédigé la Déclaration des droits de la femme et de la citoyenne en 1791 ?",
+    "answer": "Olympe de Gouges",
+    "badAnswers": [
+      "Simone de Beauvoir",
+      "George Sand",
+      "Madame de Sévigné"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_histoire_20",
+    "question": "Quel monument parisien a été inauguré pour l'Exposition universelle de 1889 ?",
+    "answer": "La tour Eiffel",
+    "badAnswers": [
+      "L'Arc de Triomphe",
+      "Le Centre Pompidou",
+      "La pyramide du Louvre"
+    ],
+    "category": "histoire"
+  },
+  {
+    "_id": "secours_geographie_01",
+    "question": "Quelle est la capitale de l'Italie ?",
+    "answer": "Rome",
+    "badAnswers": [
+      "Milan",
+      "Venise",
+      "Naples"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_02",
+    "question": "Quelle est la capitale de l'Espagne ?",
+    "answer": "Madrid",
+    "badAnswers": [
+      "Barcelone",
+      "Séville",
+      "Valence"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_03",
+    "question": "Quelle est la capitale du Japon ?",
+    "answer": "Tokyo",
+    "badAnswers": [
+      "Kyoto",
+      "Osaka",
+      "Nagoya"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_04",
+    "question": "Quelle est la capitale du Canada ?",
+    "answer": "Ottawa",
+    "badAnswers": [
+      "Toronto",
+      "Montréal",
+      "Vancouver"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_05",
+    "question": "Quelle est la capitale de l'Australie ?",
+    "answer": "Canberra",
+    "badAnswers": [
+      "Sydney",
+      "Melbourne",
+      "Perth"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_06",
+    "question": "Quel est le plus vaste océan de la Terre ?",
+    "answer": "L'océan Pacifique",
+    "badAnswers": [
+      "L'océan Atlantique",
+      "L'océan Indien",
+      "L'océan Arctique"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_07",
+    "question": "Sur quel continent se situe principalement le désert du Sahara ?",
+    "answer": "L'Afrique",
+    "badAnswers": [
+      "L'Asie",
+      "L'Europe",
+      "L'Amérique du Sud"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_08",
+    "question": "Quel pays a la forme d'une botte sur les cartes ?",
+    "answer": "L'Italie",
+    "badAnswers": [
+      "Le Portugal",
+      "La Grèce",
+      "La Norvège"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_09",
+    "question": "Quel fleuve traverse Paris ?",
+    "answer": "La Seine",
+    "badAnswers": [
+      "Le Rhône",
+      "La Loire",
+      "La Garonne"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_10",
+    "question": "Quel fleuve traverse Londres ?",
+    "answer": "La Tamise",
+    "badAnswers": [
+      "Le Danube",
+      "Le Rhin",
+      "Le Tage"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_11",
+    "question": "Quelle chaîne de montagnes forme une frontière naturelle entre la France et l'Espagne ?",
+    "answer": "Les Pyrénées",
+    "badAnswers": [
+      "Les Alpes",
+      "Les Vosges",
+      "Le Jura"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_12",
+    "question": "Dans quel pays se trouve le Machu Picchu ?",
+    "answer": "Au Pérou",
+    "badAnswers": [
+      "Au Mexique",
+      "En Argentine",
+      "Au Chili"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_13",
+    "question": "Dans quel pays se trouve le Taj Mahal ?",
+    "answer": "En Inde",
+    "badAnswers": [
+      "En Chine",
+      "Au Népal",
+      "Au Pakistan"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_14",
+    "question": "Quel pays possède les villes de Lisbonne et Porto ?",
+    "answer": "Le Portugal",
+    "badAnswers": [
+      "L'Espagne",
+      "L'Italie",
+      "La Croatie"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_15",
+    "question": "Quel continent est recouvert d'une immense calotte glaciaire autour du pôle Sud ?",
+    "answer": "L'Antarctique",
+    "badAnswers": [
+      "L'Europe",
+      "L'Océanie",
+      "L'Afrique"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_16",
+    "question": "Quelle mer borde le sud de la France métropolitaine ?",
+    "answer": "La mer Méditerranée",
+    "badAnswers": [
+      "La mer Baltique",
+      "La mer Noire",
+      "La mer Rouge"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_17",
+    "question": "Quel est le plus haut sommet du monde au-dessus du niveau de la mer ?",
+    "answer": "L'Everest",
+    "badAnswers": [
+      "Le mont Blanc",
+      "Le Kilimandjaro",
+      "L'Aconcagua"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_18",
+    "question": "Quel pays est traversé par le Nil et possède la ville du Caire ?",
+    "answer": "L'Égypte",
+    "badAnswers": [
+      "Le Maroc",
+      "L'Algérie",
+      "La Tunisie"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_19",
+    "question": "Quelle ligne imaginaire sépare les hémisphères Nord et Sud ?",
+    "answer": "L'équateur",
+    "badAnswers": [
+      "Le tropique du Cancer",
+      "Le cercle polaire arctique",
+      "Le méridien de Greenwich"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_geographie_20",
+    "question": "Quelle est la capitale de l'Allemagne ?",
+    "answer": "Berlin",
+    "badAnswers": [
+      "Munich",
+      "Hambourg",
+      "Francfort"
+    ],
+    "category": "geographie"
+  },
+  {
+    "_id": "secours_science_01",
+    "question": "Quelle est la formule chimique de l'eau ?",
+    "answer": "H2O",
+    "badAnswers": [
+      "CO2",
+      "O2",
+      "NaCl"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_02",
+    "question": "Quel organe propulse le sang dans le corps humain ?",
+    "answer": "Le cœur",
+    "badAnswers": [
+      "L'estomac",
+      "Le foie",
+      "Le rein"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_03",
+    "question": "Quelle planète est la plus proche du Soleil ?",
+    "answer": "Mercure",
+    "badAnswers": [
+      "Vénus",
+      "Mars",
+      "Jupiter"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_04",
+    "question": "Quelle est la plus grande planète du Système solaire ?",
+    "answer": "Jupiter",
+    "badAnswers": [
+      "Saturne",
+      "Neptune",
+      "La Terre"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_05",
+    "question": "Quel astre est le satellite naturel de la Terre ?",
+    "answer": "La Lune",
+    "badAnswers": [
+      "Le Soleil",
+      "Mars",
+      "Vénus"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_06",
+    "question": "Quel gaz de l'air est indispensable à la respiration humaine ?",
+    "answer": "Le dioxygène",
+    "badAnswers": [
+      "Le dihydrogène",
+      "L'hélium",
+      "Le néon"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_07",
+    "question": "Quel élément chimique a pour symbole Fe ?",
+    "answer": "Le fer",
+    "badAnswers": [
+      "Le fluor",
+      "Le francium",
+      "Le fermium"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_08",
+    "question": "Quel élément chimique a pour symbole Au ?",
+    "answer": "L'or",
+    "badAnswers": [
+      "L'argent",
+      "L'aluminium",
+      "L'argon"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_09",
+    "question": "Quel phénomène permet aux plantes vertes d'utiliser la lumière pour produire de la matière organique ?",
+    "answer": "La photosynthèse",
+    "badAnswers": [
+      "La fermentation",
+      "La condensation",
+      "L'évaporation"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_10",
+    "question": "Quel est l'état de l'eau sous forme de glace ?",
+    "answer": "Solide",
+    "badAnswers": [
+      "Liquide",
+      "Gazeux",
+      "Plasma"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_11",
+    "question": "Comment appelle-t-on le passage de l'eau liquide à la vapeur ?",
+    "answer": "La vaporisation",
+    "badAnswers": [
+      "La solidification",
+      "La fusion",
+      "La condensation"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_12",
+    "question": "Comment appelle-t-on le passage de la glace à l'eau liquide ?",
+    "answer": "La fusion",
+    "badAnswers": [
+      "La sublimation",
+      "La condensation",
+      "La solidification"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_13",
+    "question": "Quel instrument mesure la pression atmosphérique ?",
+    "answer": "Le baromètre",
+    "badAnswers": [
+      "Le thermomètre",
+      "L'ampèremètre",
+      "Le dynamomètre"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_14",
+    "question": "Quel savant a formulé la loi de la gravitation universelle au XVIIe siècle ?",
+    "answer": "Isaac Newton",
+    "badAnswers": [
+      "Louis Pasteur",
+      "Charles Darwin",
+      "Antoine Lavoisier"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_15",
+    "question": "Quel scientifique est associé à la théorie de la relativité ?",
+    "answer": "Albert Einstein",
+    "badAnswers": [
+      "Gregor Mendel",
+      "Dmitri Mendeleïev",
+      "Galilée"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_16",
+    "question": "Quel est le nom de la galaxie qui contient le Système solaire ?",
+    "answer": "La Voie lactée",
+    "badAnswers": [
+      "Andromède",
+      "La galaxie du Sombrero",
+      "La galaxie du Tourbillon"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_17",
+    "question": "Combien de pattes possède un insecte adulte dans son organisation habituelle ?",
+    "answer": "Six",
+    "badAnswers": [
+      "Quatre",
+      "Huit",
+      "Dix"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_18",
+    "question": "Combien de pattes possède une araignée dans son organisation habituelle ?",
+    "answer": "Huit",
+    "badAnswers": [
+      "Six",
+      "Dix",
+      "Douze"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_19",
+    "question": "Quel groupe d'animaux allaite ses petits ?",
+    "answer": "Les mammifères",
+    "badAnswers": [
+      "Les oiseaux",
+      "Les amphibiens",
+      "Les insectes"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_science_20",
+    "question": "Quelle valeur approche le nombre pi au centième ?",
+    "answer": "3,14",
+    "badAnswers": [
+      "2,71",
+      "1,41",
+      "1,62"
+    ],
+    "category": "science"
+  },
+  {
+    "_id": "secours_gastronomie_01",
+    "question": "Quel fruit constitue l'ingrédient principal du guacamole ?",
+    "answer": "L'avocat",
+    "badAnswers": [
+      "La mangue",
+      "La banane",
+      "La pomme"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_02",
+    "question": "Quelle légumineuse est la base du houmous traditionnel ?",
+    "answer": "Le pois chiche",
+    "badAnswers": [
+      "La lentille",
+      "Le haricot rouge",
+      "Le petit pois"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_03",
+    "question": "Quel ingrédient donne au chocolat sa matière première principale ?",
+    "answer": "Les fèves de cacao",
+    "badAnswers": [
+      "Les grains de café",
+      "Les noisettes",
+      "Les gousses de vanille"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_04",
+    "question": "Quelle céréale utilise-t-on pour préparer un risotto ?",
+    "answer": "Le riz",
+    "badAnswers": [
+      "L'avoine",
+      "Le seigle",
+      "L'orge"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_05",
+    "question": "Quelle céréale constitue la base de la polenta traditionnelle ?",
+    "answer": "Le maïs",
+    "badAnswers": [
+      "Le blé",
+      "Le riz",
+      "Le sarrasin"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_06",
+    "question": "À partir de quelle plante fabrique-t-on le tofu ?",
+    "answer": "Le soja",
+    "badAnswers": [
+      "Le tournesol",
+      "Le colza",
+      "Le lin"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_07",
+    "question": "Quel produit laitier est traditionnellement utilisé dans le tiramisu ?",
+    "answer": "Le mascarpone",
+    "badAnswers": [
+      "Le roquefort",
+      "Le comté",
+      "La feta"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_08",
+    "question": "Quel lait est utilisé pour fabriquer le roquefort ?",
+    "answer": "Le lait de brebis",
+    "badAnswers": [
+      "Le lait de chèvre",
+      "Le lait de vache",
+      "Le lait de bufflonne"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_09",
+    "question": "Quel ingrédient est la base d'une omelette ?",
+    "answer": "Les œufs",
+    "badAnswers": [
+      "La farine",
+      "Le riz",
+      "Les pommes de terre"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_10",
+    "question": "Quel ingrédient liquide complète principalement un roux pour former une sauce béchamel ?",
+    "answer": "Le lait",
+    "badAnswers": [
+      "Le jus d'orange",
+      "Le vinaigre",
+      "Le café"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_11",
+    "question": "Quelle herbe aromatique caractérise le pesto genovese ?",
+    "answer": "Le basilic",
+    "badAnswers": [
+      "La menthe",
+      "L'estragon",
+      "La ciboulette"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_12",
+    "question": "Quel fruit à coque est l'ingrédient principal de la pâte d'amande ?",
+    "answer": "L'amande",
+    "badAnswers": [
+      "La noix",
+      "La pistache",
+      "La noix de cajou"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_13",
+    "question": "Quels ingrédients composent une meringue française classique ?",
+    "answer": "Des blancs d'œufs et du sucre",
+    "badAnswers": [
+      "Des jaunes d'œufs et du sel",
+      "Du lait et de la farine",
+      "Du beurre et de la levure"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_14",
+    "question": "Quelle partie de la crème brûlée est caramélisée avant de servir ?",
+    "answer": "Sa surface sucrée",
+    "badAnswers": [
+      "Le fond du récipient",
+      "Une couche de farine",
+      "Une tranche de pain"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_15",
+    "question": "Quelle céréale compose la semoule d'un couscous traditionnel maghrébin ?",
+    "answer": "Le blé dur",
+    "badAnswers": [
+      "Le maïs",
+      "L'avoine",
+      "Le seigle"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_16",
+    "question": "Quel ingrédient est indispensable au riz utilisé pour les sushis traditionnels ?",
+    "answer": "Le vinaigre de riz",
+    "badAnswers": [
+      "Le cacao",
+      "Le beurre salé",
+      "Le concentré de tomate"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_17",
+    "question": "Quel légume sec est un ingrédient central du cassoulet traditionnel ?",
+    "answer": "Le haricot blanc",
+    "badAnswers": [
+      "Le pois cassé",
+      "La fève de soja",
+      "La lentille corail"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_18",
+    "question": "Quel type de pâte utilise-t-on pour un croissant traditionnel ?",
+    "answer": "Une pâte feuilletée levée",
+    "badAnswers": [
+      "Une pâte sablée",
+      "Une pâte brisée",
+      "Une pâte à choux"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_19",
+    "question": "Quel légume est l'ingrédient principal d'une purée Parmentier classique ?",
+    "answer": "La pomme de terre",
+    "badAnswers": [
+      "La carotte",
+      "Le navet",
+      "La courgette"
+    ],
+    "category": "gastronomie"
+  },
+  {
+    "_id": "secours_gastronomie_20",
+    "question": "Quel ingrédient donne sa couleur verte dominante au taboulé libanais traditionnel ?",
+    "answer": "Le persil",
+    "badAnswers": [
+      "La laitue",
+      "L'épinard",
+      "Le brocoli"
+    ],
+    "category": "gastronomie"
+  }
+]

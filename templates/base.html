@@ -1,0 +1,34 @@
+{# Cadre commun : navigation, feuille de style et JavaScript sans bibliothèque. #}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#110d28">
+  <title>{% block titre %}Le quiz du midi{% endblock %} · Culture générale</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script id="configuration" type="application/json">{{ config_ui | tojson }}</script>
+  <script src="{{ url_for('static', filename='js/jeu.js') }}" defer></script>
+</head>
+<body class="{% block classe_page %}{% endblock %}">
+  <a class="lien-evitement" href="#contenu">Aller au contenu</a>
+  <header class="navigation">
+    <a class="marque" href="{{ url_for('index') }}" aria-label="Accueil du quiz">
+      <span class="marque-etoile" aria-hidden="true">✦</span>
+      <span>LE QUIZ <strong>DU MIDI</strong></span>
+    </a>
+    <nav aria-label="Navigation principale">
+      <a href="{{ url_for('index') }}" {% if request.endpoint == 'index' %}aria-current="page"{% endif %}>Jouer</a>
+      <a href="{{ url_for('historique') }}" {% if request.endpoint == 'historique' %}aria-current="page"{% endif %}>Historique</a>
+      <a href="{{ url_for('statistiques') }}" {% if request.endpoint == 'statistiques' %}aria-current="page"{% endif %}>Statistiques</a>
+    </nav>
+  </header>
+  <main id="contenu" class="conteneur">
+    {% block contenu %}{% endblock %}
+  </main>
+  <footer class="pied-page">
+    <span>Un peu de culture. Beaucoup de plaisir.</span>
+    <span>Projet étudiant · Inspiré des 12 Coups de Midi</span>
+  </footer>
+</body>
+</html>

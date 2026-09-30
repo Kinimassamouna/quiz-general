@@ -1,0 +1,20 @@
+{# Dessins SVG locaux : un même dessin est réutilisé pour le titre et les scores. #}
+{% macro etoile(classe='') -%}
+<svg class="etoile {{ classe }}" viewBox="0 0 100 100" aria-hidden="true">
+  <path class="etoile-fond" d="M50 3 63 34 97 37 71 59 79 93 50 75 21 93 29 59 3 37 37 34Z"/>
+  <path class="etoile-lumiere" d="M50 3 50 50 3 37 37 34Z M50 50 79 93 71 59 97 37Z"/>
+</svg>
+{%- endmacro %}
+
+{# Une date ISO enregistrée par Python devient une date française lisible. #}
+{% macro date_fr(date) -%}
+<time datetime="{{ date }}">{{ date[8:10] }}/{{ date[5:7] }}/{{ date[:4] }} à {{ date[11:16] }}</time>
+{%- endmacro %}
+
+{% macro logo() -%}
+<div class="logo-emission" aria-label="Les 12 Coups de Midi">
+  {{ etoile('etoile-logo') }}
+  <span class="logo-petit">Les <strong>12</strong> Coups</span>
+  <span class="logo-grand">de Midi<span class="logo-exclamation">!</span></span>
+</div>
+{%- endmacro %}

@@ -1,0 +1,23 @@
+{# Statistiques : Flask calcule les totaux et les moyennes à partir de l'historique. #}
+{% extends 'base.html' %}
+{% block titre %}Statistiques{% endblock %}
+{% block contenu %}
+<div class="entete-page entete-compacte"><span class="surtitre">Vos performances à la loupe</span><h1>Des parties. <em>Des progrès.</em></h1><p>Un regard sur les scores enregistrés et les performances de chaque joueur.</p></div>
+{% if erreur %}<p class="alerte" role="alert">{{ erreur }}</p>{% endif %}
+<div class="indicateurs">
+  <div class="carte indicateur"><span class="surtitre">Parties jouées</span><strong>{{ stats.nombre_parties }}</strong><span>parties terminées</span></div>
+  <div class="carte indicateur indicateur-or"><span class="surtitre">Meilleur score</span><strong>{{ stats.meilleur_score }}<small>✦</small></strong><span>points sur une partie</span></div>
+  <div class="carte indicateur"><span class="surtitre">Score moyen</span><strong>{{ '%.1f' | format(stats.moyenne_globale) }}</strong><span>points par joueur et par partie</span></div>
+</div>
+{% if stats.joueurs %}
+<section class="section-resultats" aria-labelledby="titre-statistiques">
+  <div class="titre-section"><div><span class="surtitre">Tout le monde a sa place</span><h2 id="titre-statistiques">Les joueurs en chiffres</h2></div></div>
+  <div class="carte tableau-conteneur"><table><caption class="visuellement-cache">Nombre de parties, meilleur score et moyenne par joueur</caption><thead><tr><th scope="col">Joueur</th><th scope="col">Parties</th><th scope="col">Meilleur score</th><th scope="col">Score moyen</th></tr></thead><tbody>
+    {% for joueur in stats.joueurs %}<tr><th scope="row">{{ joueur.nom }}</th><td>{{ joueur.parties }}</td><td class="nombre-or">{{ joueur.meilleur_score }} pts</td><td>{{ '%.1f' | format(joueur.score_moyen) }} pts</td></tr>{% endfor %}
+  </tbody></table></div>
+  <p class="aide note-stats">Les statistiques regroupent les parties jouées avec le même pseudo. Les scores dépendent du nombre de tours choisi.</p>
+</section>
+{% else %}
+<div class="carte etat-vide"><span class="vide-etoile" aria-hidden="true">✦</span><h2>À vous d’écrire les premiers scores.</h2><p>Terminez une partie pour découvrir les statistiques des joueurs.</p><a class="bouton bouton-or" href="{{ url_for('index') }}">Jouer une partie <span aria-hidden="true">→</span></a></div>
+{% endif %}
+{% endblock %}

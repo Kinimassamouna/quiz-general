@@ -1,0 +1,58 @@
+{# Accueil : les champs ajoutés par JavaScript sont vérifiés une seconde fois par Flask. #}
+{% extends 'base.html' %}
+{% from 'macros.html' import logo, etoile %}
+{% block titre %}À vous de jouer{% endblock %}
+{% block classe_page %}page-accueil{% endblock %}
+{% block contenu %}
+<div class="entete-page">
+  <span class="surtitre"><span class="point-lumineux"></span> Le plateau est à vous</span>
+  <h1>La culture générale<br><em>se joue à plusieurs.</em></h1>
+  <p>Ou en solo ! Entrez vos pseudos, choisissez vos tours et faites briller vos connaissances.</p>
+</div>
+
+<!-- Configuration de la partie : joueurs à gauche, titre au centre, options à droite. -->
+<form id="form-configuration" method="post" action="{{ url_for('commencer') }}" class="carte configuration">
+  <div class="configuration-joueurs">
+    <div class="titre-bloc"><span class="numero-etape">01</span><h2>Les joueurs</h2></div>
+    <p class="aide">De 1 à {{ config_ui.max_joueurs }} joueurs · {{ config_ui.longueur_pseudo }} caractères maximum</p>
+    <div id="liste-joueurs">
+      {% for nom in joueurs %}
+      <div class="champ-joueur">
+        <label for="joueur-{{ loop.index }}">Pseudo du joueur {{ loop.index }}</label>
+        <div class="ligne-champ">
+          <input id="joueur-{{ loop.index }}" name="joueurs" type="text" value="{{ nom }}" placeholder="Pseudo du joueur {{ loop.index }}" maxlength="{{ config_ui.longueur_pseudo }}" required autocomplete="off">
+          <button class="bouton-retirer" type="button" data-retirer aria-label="Retirer le joueur {{ loop.index }}" {% if loop.first %}hidden disabled{% endif %}>×</button>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <button id="ajouter-joueur" class="bouton-ajouter" type="button" {% if joueurs|length >= config_ui.max_joueurs %}disabled{% endif %}><span aria-hidden="true">+</span> Ajouter un joueur</button>
+  </div>
+  <div class="configuration-logo">
+    {{ logo() }}
+    <span class="etiquette">Le grand quiz de culture générale</span>
+    <div class="petites-etoiles" aria-hidden="true">✦ <span>✦</span> ✦</div>
+  </div>
+  <div class="configuration-options">
+    <div class="titre-bloc"><span class="numero-etape">02</span><h2>Votre partie</h2></div>
+    <label for="tours">Nombre de tours</label>
+    <input id="tours" name="tours" type="number" min="1" max="{{ config_ui.max_tours }}" value="{{ tours }}" required>
+    <p class="aide aide-tours">Un tour = une question par joueur.</p>
+    <label for="categorie">Thème des questions</label>
+    <select id="categorie" name="categorie">
+      <option value="" {% if not categorie %}selected{% endif %}>Tous les thèmes</option>
+      {% for slug, nom in categories.items() %}<option value="{{ slug }}" {% if categorie == slug %}selected{% endif %}>{{ nom }}</option>{% endfor %}
+    </select>
+    <button class="bouton bouton-or bouton-commencer" type="submit">Commencer <span aria-hidden="true">→</span></button>
+  </div>
+  <p id="erreur-configuration" class="alerte erreur-configuration" role="alert" {% if not erreur %}hidden{% endif %}>{{ erreur or '' }}</p>
+</form>
+
+<!-- Trois règles suffisent pour expliquer le jeu avant de commencer. -->
+<section class="regles" aria-labelledby="titre-regles">
+  <div class="regles-entete"><span class="surtitre">Simple comme bonjour</span><h2 id="titre-regles">Vos connaissances font la différence.</h2></div>
+  <div class="regle"><span class="icone-regle" aria-hidden="true">①</span><h3>Chacun son tour</h3><p>Quatre propositions et une seule bonne réponse. Sélectionnez, puis validez.</p></div>
+  <div class="regle"><span class="icone-regle" aria-hidden="true">◷</span><h3>{{ config_ui.duree_question }} secondes pour briller</h3><p>Gardez un œil sur le chrono. À zéro, votre réponse est automatiquement validée.</p></div>
+  <div class="regle"><span class="icone-regle" aria-hidden="true">✦</span><h3>Chaque point compte</h3><p>Une bonne réponse rapporte {{ config_ui.points }} point{% if config_ui.points > 1 %}s{% endif %}. Le meilleur score l’emporte !</p></div>
+</section>
+{% endblock %}
