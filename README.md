@@ -1,6 +1,8 @@
 <!-- Ce fichier explique l'installation, les règles, le code et la présentation orale. -->
 # Quiz de culture générale
 
+Le projet consiste à développer une application web permettant à un utilisateur de tester ses connaissances générales à travers une série de différentes questions dans le thème de la célèbre émission les 12 coup de midi.
+
 Un projet étudiant en **Python, Flask, HTML, CSS et JavaScript simple**, inspiré de l'ambiance des *12 Coups de Midi*. De 1 à 4 joueurs répondent chacun leur tour à des QCM et gagnent des points. Les dessins et les animations sont réalisés dans le projet, en CSS et SVG.
 
 ## Installer et lancer
